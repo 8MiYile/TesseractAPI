@@ -5,26 +5,24 @@ issueTrackerURL="https://github.com/GregTech-Intergalactical/TesseractAPI/issues
 license="LGPL-v3"
 
 [[mods]]
-modId="tesseract"
-#version="${version}"
-version="0.0.1"
+modId="tesseractapi"
+version="${file.jarVersion}"
 displayName="TesseractAPI"
 #updateJSONURL="http://myurl.me/"
 displayURL="https://github.com/GregTech-Intergalactical/TesseractAPI"
 #logoFile="examplemod.png"
 authors="coderbot16, qubka, repolainen, mitchej123, Muramasa"
+credits="Rongmario - cheerleading from the side"
 description='''Powerful framework for energy, item, and fluid transport'''
 [[dependencies.tesseract]]
     modId="forge"
     mandatory=true
-    #versionRange="[${forge_version},)"
-    versionRange="31.0.1"
+    versionRange="[${forge_version},)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.tesseract]]
     modId="minecraft"
     mandatory=true
-    #versionRange="[${minecraft_version}]"
-    versionRange="1.15.2"
+    versionRange="[${minecraft_version}]"
     ordering="NONE"
     side="BOTH"
